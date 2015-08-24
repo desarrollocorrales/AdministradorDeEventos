@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarioAdmin", "CalendarioAdmin.csproj", "{D609E122-DD88-467D-9BCE-9BBDEFDAD49A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupCalendarioAdmin", "..\SetupCalendarioAdmin\SetupCalendarioAdmin.vdproj", "{301C2E5A-0DE9-4E13-87CD-E3E70D0F9AC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D609E122-DD88-467D-9BCE-9BBDEFDAD49A}.Debug|x86.ActiveCfg = Debug|x86
+		{D609E122-DD88-467D-9BCE-9BBDEFDAD49A}.Debug|x86.Build.0 = Debug|x86
+		{D609E122-DD88-467D-9BCE-9BBDEFDAD49A}.Release|x86.ActiveCfg = Release|x86
+		{D609E122-DD88-467D-9BCE-9BBDEFDAD49A}.Release|x86.Build.0 = Release|x86
+		{301C2E5A-0DE9-4E13-87CD-E3E70D0F9AC4}.Debug|x86.ActiveCfg = Debug
+		{301C2E5A-0DE9-4E13-87CD-E3E70D0F9AC4}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

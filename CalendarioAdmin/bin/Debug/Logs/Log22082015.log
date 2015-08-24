@@ -1,0 +1,159 @@
+22/08/2015 08:50:34 a.m.: Validando usuario .....
+22/08/2015 08:50:34 a.m.: Crear contexto...
+22/08/2015 08:50:35 a.m.: Consultar usuario...
+22/08/2015 08:50:50 a.m.: System.Data.EntityException: Error del proveedor subyacente en Open. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException: Host desconocido
+   en System.Net.Dns.GetAddrInfo(String name)
+   en System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   en System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   en MySql.Data.Common.MyNetworkStream.CreateStream(MySqlConnectionStringBuilder settings, Boolean unix)
+   en MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   en MySql.Data.MySqlClient.Driver.Open()
+   en MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   en MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   en MySql.Data.MySqlClient.MySqlConnection.Open()
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   en System.Data.EntityClient.EntityConnection.Open()
+   en System.Data.Objects.ObjectContext.EnsureConnection()
+   en System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   en CalendarioAdmin.GUI.Frm_login.ValidarUsuario(String user, String pass) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 57
+   en CalendarioAdmin.GUI.Frm_login.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 32
+22/08/2015 08:50:54 a.m.: Validando usuario .....
+22/08/2015 08:50:54 a.m.: Crear contexto...
+22/08/2015 08:50:54 a.m.: Consultar usuario...
+22/08/2015 08:51:04 a.m.: System.Data.EntityException: Error del proveedor subyacente en Open. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException: Host desconocido
+   en System.Net.Dns.GetAddrInfo(String name)
+   en System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   en System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   en MySql.Data.Common.MyNetworkStream.CreateStream(MySqlConnectionStringBuilder settings, Boolean unix)
+   en MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   en MySql.Data.MySqlClient.Driver.Open()
+   en MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   en MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   en MySql.Data.MySqlClient.MySqlConnection.Open()
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   en System.Data.EntityClient.EntityConnection.Open()
+   en System.Data.Objects.ObjectContext.EnsureConnection()
+   en System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   en CalendarioAdmin.GUI.Frm_login.ValidarUsuario(String user, String pass) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 57
+   en CalendarioAdmin.GUI.Frm_login.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 32
+22/08/2015 08:51:32 a.m.: Abrir formulario de configuración...
+22/08/2015 08:52:20 a.m.: Validando usuario ADMIN.....
+22/08/2015 08:52:20 a.m.: Crear contexto...
+22/08/2015 08:52:20 a.m.: Consultar usuario...
+22/08/2015 08:52:20 a.m.: System.DllNotFoundException: MySql.Data.MySqlClient.MySqlProviderServices, MySql.Data.Entity, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d
+   en MySql.Data.MySqlClient.MySqlClientFactory.get_MySqlDbProviderServicesInstance()
+   en MySql.Data.MySqlClient.MySqlClientFactory.System.IServiceProvider.GetService(Type serviceType)
+   en System.Data.Common.DbProviderServices.GetProviderServices(DbProviderFactory factory)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.InitializeProviderManifest(Action`3 addError)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.OnProviderManifestTokenNotification(String token, Action`3 addError)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleProviderManifestTokenAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaElement.ParseAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaElement.Parse(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleTopLevelSchemaElement(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.InternalParse(XmlReader sourceReader, String sourceLocation)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.Parse(XmlReader sourceReader, String sourceLocation)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaManager.ParseAndValidate(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths, SchemaDataModelOption dataModel, AttributeValueNotification providerNotification, AttributeValueNotification providerManifestTokenNotification, ProviderManifestNeeded providerManifestNeeded, IList`1& schemaCollection)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.LoadItems(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths)
+   en System.Data.Metadata.Edm.StoreItemCollection.Init(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths, Boolean throwOnError, DbProviderManifest& providerManifest, DbProviderFactory& providerFactory, String& providerManifestToken, Memoizer`2& cachedCTypeFunction)
+   en System.Data.Metadata.Edm.StoreItemCollection..ctor(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths)
+   en System.Data.Metadata.Edm.MetadataCache.StoreMetadataEntry.LoadStoreCollection(EdmItemCollection edmItemCollection, MetadataArtifactLoader loader)
+   en System.Data.Metadata.Edm.MetadataCache.StoreItemCollectionLoader.LoadItemCollection(StoreMetadataEntry entry)
+   en System.Data.Metadata.Edm.MetadataCache.LoadItemCollection[T](IItemCollectionLoader`1 itemCollectionLoader, T entry)
+   en System.Data.Metadata.Edm.MetadataCache.GetOrCreateStoreAndMappingItemCollections(String cacheKey, MetadataArtifactLoader loader, EdmItemCollection edmItemCollection, Object& entryToken)
+   en System.Data.EntityClient.EntityConnection.LoadStoreItemCollections(MetadataWorkspace workspace, DbConnection storeConnection, DbProviderFactory factory, DbConnectionOptions connectionOptions, EdmItemCollection edmItemCollection, MetadataArtifactLoader artifactLoader)
+   en System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   en System.Data.EntityClient.EntityConnection.InitializeMetadata(DbConnection newConnection, DbConnection originalConnection, Boolean closeOriginalConnectionOnFailure)
+   en System.Data.EntityClient.EntityConnection.Open()
+   en System.Data.Objects.ObjectContext.EnsureConnection()
+   en System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   en CalendarioAdmin.GUI.Frm_login.ValidarUsuario(String user, String pass) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 57
+   en CalendarioAdmin.GUI.Frm_login.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 32
+22/08/2015 08:54:05 a.m.: Validando usuario ADMIN.....
+22/08/2015 08:54:05 a.m.: Crear contexto...
+22/08/2015 08:54:05 a.m.: Consultar usuario...
+22/08/2015 08:54:05 a.m.: System.DllNotFoundException: MySql.Data.MySqlClient.MySqlProviderServices, MySql.Data.Entity, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d
+   en MySql.Data.MySqlClient.MySqlClientFactory.get_MySqlDbProviderServicesInstance()
+   en MySql.Data.MySqlClient.MySqlClientFactory.System.IServiceProvider.GetService(Type serviceType)
+   en System.Data.Common.DbProviderServices.GetProviderServices(DbProviderFactory factory)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.InitializeProviderManifest(Action`3 addError)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.OnProviderManifestTokenNotification(String token, Action`3 addError)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleProviderManifestTokenAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaElement.ParseAttribute(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaElement.Parse(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.HandleTopLevelSchemaElement(XmlReader reader)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.InternalParse(XmlReader sourceReader, String sourceLocation)
+   en System.Data.EntityModel.SchemaObjectModel.Schema.Parse(XmlReader sourceReader, String sourceLocation)
+   en System.Data.EntityModel.SchemaObjectModel.SchemaManager.ParseAndValidate(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths, SchemaDataModelOption dataModel, AttributeValueNotification providerNotification, AttributeValueNotification providerManifestTokenNotification, ProviderManifestNeeded providerManifestNeeded, IList`1& schemaCollection)
+   en System.Data.Metadata.Edm.StoreItemCollection.Loader.LoadItems(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths)
+   en System.Data.Metadata.Edm.StoreItemCollection.Init(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths, Boolean throwOnError, DbProviderManifest& providerManifest, DbProviderFactory& providerFactory, String& providerManifestToken, Memoizer`2& cachedCTypeFunction)
+   en System.Data.Metadata.Edm.StoreItemCollection..ctor(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths)
+   en System.Data.Metadata.Edm.MetadataCache.StoreMetadataEntry.LoadStoreCollection(EdmItemCollection edmItemCollection, MetadataArtifactLoader loader)
+   en System.Data.Metadata.Edm.MetadataCache.StoreItemCollectionLoader.LoadItemCollection(StoreMetadataEntry entry)
+   en System.Data.Metadata.Edm.MetadataCache.LoadItemCollection[T](IItemCollectionLoader`1 itemCollectionLoader, T entry)
+   en System.Data.Metadata.Edm.MetadataCache.GetOrCreateStoreAndMappingItemCollections(String cacheKey, MetadataArtifactLoader loader, EdmItemCollection edmItemCollection, Object& entryToken)
+   en System.Data.EntityClient.EntityConnection.LoadStoreItemCollections(MetadataWorkspace workspace, DbConnection storeConnection, DbProviderFactory factory, DbConnectionOptions connectionOptions, EdmItemCollection edmItemCollection, MetadataArtifactLoader artifactLoader)
+   en System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   en System.Data.EntityClient.EntityConnection.InitializeMetadata(DbConnection newConnection, DbConnection originalConnection, Boolean closeOriginalConnectionOnFailure)
+   en System.Data.EntityClient.EntityConnection.Open()
+   en System.Data.Objects.ObjectContext.EnsureConnection()
+   en System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   en CalendarioAdmin.GUI.Frm_login.ValidarUsuario(String user, String pass) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 57
+   en CalendarioAdmin.GUI.Frm_login.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 32
+22/08/2015 08:55:18 a.m.: Cerrando aplicación...
+22/08/2015 09:02:57 a.m.: Abrir formulario de configuración...
+22/08/2015 09:18:55 a.m.: Abrir formulario de configuración...
+22/08/2015 09:19:09 a.m.: Abrir formulario de configuración...
+22/08/2015 09:19:51 a.m.: Abrir formulario de configuración...
+22/08/2015 09:20:21 a.m.: Abrir formulario de configuración...
+22/08/2015 09:20:32 a.m.: Abrir formulario de configuración...
+22/08/2015 09:21:00 a.m.: Abrir formulario de configuración...
+22/08/2015 09:26:07 a.m.: Abrir formulario de configuración...
+22/08/2015 09:26:21 a.m.: Validando usuario ADMIN.....
+22/08/2015 09:26:21 a.m.: Crear contexto...
+22/08/2015 09:26:21 a.m.: Consultar usuario...
+22/08/2015 09:26:23 a.m.: Usuario valido, iniciando aplicación...
+22/08/2015 11:17:46 a.m.: Abrir formulario de configuración...
+22/08/2015 11:18:55 a.m.: Validando usuario ADMIN.....
+22/08/2015 11:18:55 a.m.: Crear contexto...
+22/08/2015 11:18:56 a.m.: Consultar usuario...
+22/08/2015 11:18:56 a.m.: Usuario valido, iniciando aplicación...

@@ -1,0 +1,56 @@
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\Logs\Readme.txt
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.exe.config
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.exe
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.pdb
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Data.v11.1.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Utils.v11.1.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Data.v11.1.xml
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Utils.v11.1.xml
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_ActivarDesactivarEventos.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Configurar.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Menu.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_login.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_ModificarEvento.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_NuevoEvento.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Usuarios.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.exe.licenses
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.exe
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.pdb
+C:\Users\Desarrollo\Documents\GitHub\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.exe.config
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_ActivarDesactivarEventos.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Configurar.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Menu.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_login.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_ModificarEvento.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_NuevoEvento.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.GUI.Frm_Usuarios.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.Properties.Resources.resources
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.csproj.GenerateResource.Cache
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\obj\x86\Debug\CalendarioAdmin.exe.licenses
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\Logs\Readme.txt
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.exe
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\CalendarioAdmin.pdb
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Data.v11.1.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Utils.v11.1.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Data.v11.1.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.Utils.v11.1.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\bin\Debug\DevExpress.XtraLayout.v11.1.xml

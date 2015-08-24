@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CalendarioPagosModelStoreContainer" CdmEntityContainer="CalendarioEntities">
+    <EntitySetMapping Name="eventos">
+      <EntityTypeMapping TypeName="CalendarioPagosModel.eventos">
+        <MappingFragment StoreEntitySet="eventos">
+          <ScalarProperty Name="dia_semana" ColumnName="dia_semana" />
+          <ScalarProperty Name="es_semanal" ColumnName="es_semanal" />
+          <ScalarProperty Name="dia_limite" ColumnName="dia_limite" />
+          <ScalarProperty Name="id_tipo_evento" ColumnName="id_tipo_evento" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+          <ScalarProperty Name="banco" ColumnName="banco" />
+          <ScalarProperty Name="cuenta_bancaria" ColumnName="cuenta_bancaria" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipos_evento">
+      <EntityTypeMapping TypeName="CalendarioPagosModel.tipos_evento">
+        <MappingFragment StoreEntitySet="tipos_evento">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_tipo_evento" ColumnName="id_tipo_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="CalendarioPagosModel.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="id_tipousuario" ColumnName="id_tipousuario" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="eventos_usuario" TypeName="CalendarioPagosModel.eventos_usuario" StoreEntitySet="eventos_usuario">
+      <EndProperty Name="usuarios">
+        <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+      </EndProperty>
+      <EndProperty Name="eventos">
+        <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
