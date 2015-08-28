@@ -217,9 +217,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Usuarios100px.png" />
+    <None Include="check_list.png" />
     <Content Include="Logs\Readme.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="NuevoEvento.png" />
+    <None Include="ModifyEvent.png" />
     <Content Include="remindericon2.ico" />
     <Content Include="remindericon2.png" />
   </ItemGroup>

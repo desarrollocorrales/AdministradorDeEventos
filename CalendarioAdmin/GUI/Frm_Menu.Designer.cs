@@ -29,42 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Menu));
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btn_Modficar = new System.Windows.Forms.Button();
-            this.btnActivacion = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnActivacion = new System.Windows.Forms.Button();
+            this.btn_Modficar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Location = new System.Drawing.Point(14, 52);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(416, 108);
-            this.btnNuevo.TabIndex = 0;
-            this.btnNuevo.Text = "Nuevo Recordatorio";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // btn_Modficar
-            // 
-            this.btn_Modficar.Location = new System.Drawing.Point(12, 166);
-            this.btn_Modficar.Name = "btn_Modficar";
-            this.btn_Modficar.Size = new System.Drawing.Size(418, 108);
-            this.btn_Modficar.TabIndex = 1;
-            this.btn_Modficar.Text = "Modificar un Recordatorio";
-            this.btn_Modficar.UseVisualStyleBackColor = true;
-            this.btn_Modficar.Click += new System.EventHandler(this.btn_Modficar_Click);
-            // 
-            // btnActivacion
-            // 
-            this.btnActivacion.Location = new System.Drawing.Point(436, 52);
-            this.btnActivacion.Name = "btnActivacion";
-            this.btnActivacion.Size = new System.Drawing.Size(416, 108);
-            this.btnActivacion.TabIndex = 2;
-            this.btnActivacion.Text = "Activar / Desactivar Recordatorios";
-            this.btnActivacion.UseVisualStyleBackColor = true;
-            this.btnActivacion.Click += new System.EventHandler(this.btnActivacion_Click);
             // 
             // lblTitulo
             // 
@@ -72,26 +42,72 @@
             this.lblTitulo.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(0, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(865, 35);
+            this.lblTitulo.Size = new System.Drawing.Size(682, 35);
             this.lblTitulo.TabIndex = 3;
             this.lblTitulo.Text = "Calendario de Pagos";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnUsuarios
             // 
-            this.btnUsuarios.Location = new System.Drawing.Point(436, 166);
+            this.btnUsuarios.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUsuarios.Image = global::CalendarioAdmin.Properties.Resources.Usuarios100px;
+            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnUsuarios.Location = new System.Drawing.Point(510, 81);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(416, 108);
+            this.btnUsuarios.Size = new System.Drawing.Size(160, 150);
             this.btnUsuarios.TabIndex = 4;
             this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUsuarios.UseVisualStyleBackColor = true;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
+            // btnActivacion
+            // 
+            this.btnActivacion.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnActivacion.Image = global::CalendarioAdmin.Properties.Resources.check_list;
+            this.btnActivacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnActivacion.Location = new System.Drawing.Point(344, 81);
+            this.btnActivacion.Name = "btnActivacion";
+            this.btnActivacion.Size = new System.Drawing.Size(160, 150);
+            this.btnActivacion.TabIndex = 2;
+            this.btnActivacion.Text = "Activar / Desactivar Recordatorios";
+            this.btnActivacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnActivacion.UseVisualStyleBackColor = true;
+            this.btnActivacion.Click += new System.EventHandler(this.btnActivacion_Click);
+            // 
+            // btn_Modficar
+            // 
+            this.btn_Modficar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_Modficar.Image = global::CalendarioAdmin.Properties.Resources.ModifyEvent;
+            this.btn_Modficar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_Modficar.Location = new System.Drawing.Point(178, 81);
+            this.btn_Modficar.Name = "btn_Modficar";
+            this.btn_Modficar.Size = new System.Drawing.Size(160, 150);
+            this.btn_Modficar.TabIndex = 1;
+            this.btn_Modficar.Text = "Modificar un Recordatorio";
+            this.btn_Modficar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_Modficar.UseVisualStyleBackColor = true;
+            this.btn_Modficar.Click += new System.EventHandler(this.btn_Modficar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNuevo.Image = global::CalendarioAdmin.Properties.Resources.NuevoEvento;
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNuevo.Location = new System.Drawing.Point(12, 81);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(160, 150);
+            this.btnNuevo.TabIndex = 0;
+            this.btnNuevo.Text = "Nuevo Recordatorio";
+            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // Frm_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 317);
+            this.ClientSize = new System.Drawing.Size(682, 313);
             this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnActivacion);

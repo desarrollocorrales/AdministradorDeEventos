@@ -1,0 +1,37 @@
+25/08/2015 09:20:10 a.m.: Validando usuario VIRTUAL.....
+25/08/2015 09:20:10 a.m.: Crear contexto...
+25/08/2015 09:20:10 a.m.: Consultar usuario...
+25/08/2015 09:20:13 a.m.: System.Data.EntityException: Error del proveedor subyacente en Open. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts. ---> System.Net.Sockets.SocketException: Host desconocido
+   en System.Net.Dns.GetAddrInfo(String name)
+   en System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   en System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   en MySql.Data.Common.MyNetworkStream.CreateStream(MySqlConnectionStringBuilder settings, Boolean unix)
+   en MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en MySql.Data.MySqlClient.NativeDriver.Open()
+   en MySql.Data.MySqlClient.Driver.Open()
+   en MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   en MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   en MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   en MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   en MySql.Data.MySqlClient.MySqlConnection.Open()
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   en System.Data.EntityClient.EntityConnection.Open()
+   en System.Data.Objects.ObjectContext.EnsureConnection()
+   en System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   en System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   en System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   en System.Data.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   en CalendarioAdmin.GUI.Frm_login.ValidarUsuario(String user, String pass) en D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 57
+   en CalendarioAdmin.GUI.Frm_login.btnAceptar_Click(Object sender, EventArgs e) en D:\Mis Documentos\Visual Studio 2010\Projects\CalendarioAdmin\CalendarioAdmin\GUI\Frm_login.cs:línea 32
+25/08/2015 09:20:22 a.m.: Abrir formulario de configuración...
+25/08/2015 09:20:49 a.m.: Validando usuario VIRTUAL.....
+25/08/2015 09:20:49 a.m.: Crear contexto...
+25/08/2015 09:20:49 a.m.: Consultar usuario...
+25/08/2015 09:20:49 a.m.: Usuario valido, iniciando aplicación...
