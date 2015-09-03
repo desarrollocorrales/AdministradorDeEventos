@@ -13,7 +13,9 @@ namespace CalendarioAdmin.GUI
 {
     public partial class Frm_NuevoEvento : Form
     {
+        private usuarios usuario;
         private CalendarioEntities Contexto;
+        private List<usuarios> LstUsuarios;
 
         public Frm_NuevoEvento()
         {
@@ -82,8 +84,17 @@ namespace CalendarioAdmin.GUI
             Contexto.eventos.AddObject(nuevo_evento);
             Contexto.SaveChanges();
 
-            usuarios u = Contexto.usuarios.FirstOrDefault(o => o.id_usuario == UsuarioSistema.IdUsuario);
-            u.eventos.Add(nuevo_evento);
+            usuarios user;
+            if (cbUsuarios.Enabled == false)
+            {
+                user = Contexto.usuarios.FirstOrDefault(o => o.id_usuario == UsuarioSistema.IdUsuario);
+            }
+            else
+            {
+                usuarios cb_user = (usuarios)cbUsuarios.SelectedItem;
+                user = Contexto.usuarios.FirstOrDefault(o => o.id_usuario == cb_user.id_usuario);
+            }
+            user.eventos.Add(nuevo_evento);
 
             Contexto.SaveChanges();
 
@@ -123,6 +134,21 @@ namespace CalendarioAdmin.GUI
         {
             cbDiaSemana.SelectedIndex = 0;
             Contexto = new CalendarioEntities(Modelos.UsuarioSistema.getConnectonString());
+            CargarUsuarios();
+        }
+        private void CargarUsuarios()
+        {
+            LstUsuarios = Contexto.usuarios.Where(o => o.activo == "S").ToList();
+            usuario = LstUsuarios.Find(o => o.id_usuario == UsuarioSistema.IdUsuario);
+
+            cbUsuarios.DataSource = LstUsuarios;
+            cbUsuarios.DisplayMember = "nombre";
+            cbUsuarios.SelectedItem = usuario;
+
+            if (usuario.id_tipousuario == "S")
+                cbUsuarios.Enabled = true;
+            else
+                cbUsuarios.Enabled = false;
         }
 
         private void txbCantidad_KeyPress(object sender, KeyPressEventArgs e)

@@ -112,19 +112,7 @@
         "Entry"
         {
         "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
-        "OwnerKey" = "8:_9354CDD4F6BAB75475932CC1A11B7949"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
-        "OwnerKey" = "8:_9914DD97596C4CFB9E6B522289F0E053"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
-        "OwnerKey" = "8:_DBAB3A466BE27BB0078A553DCFD50FFE"
+        "OwnerKey" = "8:_6B9551AAC23E5F8632A5F35C580D0A4D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,7 +124,19 @@
         "Entry"
         {
         "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
-        "OwnerKey" = "8:_6B9551AAC23E5F8632A5F35C580D0A4D"
+        "OwnerKey" = "8:_DBAB3A466BE27BB0078A553DCFD50FFE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
+        "OwnerKey" = "8:_9914DD97596C4CFB9E6B522289F0E053"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
+        "OwnerKey" = "8:_9354CDD4F6BAB75475932CC1A11B7949"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -161,12 +161,6 @@
         {
         "MsmKey" = "8:_DF2B0A801E8341008BC5ED2E0DB63328"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -209,6 +203,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9354CDD4F6BAB75475932CC1A11B7949"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D38252E7632658F1921C6F9474DCAE55"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -641,7 +641,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Administrador del Calendario de Eventos"
         "ProductCode" = "8:{42E66B4B-4B90-4C83-B945-1E281635AAA3}"
-        "PackageCode" = "8:{CE3DA230-AC0D-4D3C-BD57-185228E9014C}"
+        "PackageCode" = "8:{E23043DC-B9DC-4561-936F-5183EEA9B9B4}"
         "UpgradeCode" = "8:{038225A7-6573-4511-90A5-4554968BE3A5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
